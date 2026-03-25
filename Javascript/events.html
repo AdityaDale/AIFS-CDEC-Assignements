@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Events</title>
+  </head>
+  <body>
+    <h1>Welcome</h1>
+
+    <!--onclick event starts-->
+    <div style="margin-bottom: 5px">
+      <p>Add two numbers</p>
+      <input type="number" id="inputNo1" />
+      <input type="number" id="inputNo2" />
+      <button id="addBtn" onclick="add()">Add</button>
+      <button id="clearAddBtn" onclick="clearAdd()">Clear</button>
+    </div>
+
+    <div style="margin-bottom: 20px">
+      <span>
+        Output :
+        <p id="output1"></p
+      ></span>
+    </div>
+    <!--onclick event ends-->
+
+    <!--mouse hover event starts-->
+    <div
+      id="box"
+      style="
+        width: 200px;
+        height: 100px;
+        background: lightblue;
+        margin-bottom: 20px;
+      "
+    >
+      Hover over me
+    </div>
+    <!--mouse hover event ends-->
+
+    <!--mouse tracking event starts-->
+    <div style="margin-bottom: 20px">
+      <span
+        >Mouse co-ordinates
+        <p id="coords"></p
+      ></span>
+    </div>
+    <!--mouse tracking event ends-->
+
+    <!--typing event starts-->
+    <div style="margin-bottom: 20px">
+      <input type="text" id="textBox" placeholder="Type Something...." />
+
+      <span
+        >Output :
+        <p id="textOutput"></p
+      ></span>
+    </div>
+    <!--typing event ends-->
+
+    <!--keydown event starts-->
+    <div style="margin-bottom: 20px">
+      <input type="text" id="keyInput" placeholder="Press any key" />
+    </div>
+    <!--keydown event ends-->
+
+    <script src="events.js"></script>
+  </body>
+</html>
